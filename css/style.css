@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0084FD;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+
+.box{
+    background-color: #B5DDFF;
+    padding: 2rem;
+    border: 1px solid #B5DDFF;
+    border-radius: 5%;
+}
+
+.box img{
+    width: 100%;
+}
+
+.celestial{
+    color: #0084FD;
+}
+
+.m-top1-5{
+    margin-top: 1.5rem;
+}
+
+.p-section1{
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.app{
+    text-align: center;
+    color: white;
+    background-color: #0084FD;
+    border: 1px solid #0084FD;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 80%;
+    font-size: 1.2rem;
+}
+
+.box1{
+    background-color: #B5DDFF;
+    padding: 2rem;
+    border: 1px solid #B5DDFF;
+    border-radius: 5%;
+    text-align: center;
+}
+
+
+
