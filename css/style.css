@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 body{
     font-family: sans-serif;
 }
@@ -11,31 +12,38 @@ header{
     background-color: #0184fd;
     padding: 0.7rem;    
 }
+
 .menu{    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
 }
+
 .icon-menu{
     color: white;
 }
+
 .ul-menu{
     display: none;
 }
+
 .header-button{
     background-color: white;
     border-radius: 15px;
     padding: 0.5rem 0.5rem;
     text-align: center;
 }
+
 a{
     text-decoration: none;
     color: white;       
 }
+
 .header-button a{
     color: black;
 }
+
 main{
     width: 100%;
 }
@@ -43,41 +51,61 @@ main{
 .first-column{
     padding: 1rem 1rem;
 }
+
 .col{
     background-color: #b5ddff;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 3rem 1rem;
     margin-top: 10px;
     border-radius: 20px;
 }
+
 .col-apple{
     text-align: left;
     background-color: #b5ddff;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-top: 3rem;
     border-radius: 20px;
 }
+
+.col-apple p{
+    margin-bottom: 3rem;
+}
+
+.col-apple img{
+    margin-top: 3rem;
+}
+
 .col i{
     color: #0184fd;
 }
+
+.fa-5x{
+    margin-bottom: 2rem;
+}
+
 h2{
     color: #0686fd;
     margin-bottom: 1rem;
 }
+
 p{
     margin-bottom: 1rem;
+    line-height: 1.8rem;
 }
+
 .apple{
     background-color: #0184fd;
     border-radius: 15px;
-    padding: 0.5rem 0.5rem;
-    text-align: center;
-    width: 10%;
+    padding: 0.5rem 3rem;
+    text-align: center;    
 }
+
 .apple a{
     color: white;
 }
+
 img{
     width: 100%;
     margin-bottom: -0.3rem;
@@ -86,32 +114,81 @@ img{
 .planning1{
     color: white;  
 }
+
 .planning1 h2{
     color: white;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
 }
+
 .planning2{
     background-color: white;
     border-radius: 20px;
     padding: 1.5rem 1rem;
     text-align: center;
 }
+
 .planning2 h2{
     color: black;
+    margin-top: 3rem;
 }
+
 .strategic-plan p{
     padding:1rem 0;
 }
+
 .strategic-plan{
     background-color: #9792e4;
     width: 100%;
     padding: 2rem 1rem;
 }
+
 .arrow-down-violet{
     background-color:#9792e4 ;
     padding: 0.7rem 1rem;
     border-radius: 50%;
 }
+
+.expert-partners{    
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+.expert-partners h3{
+    margin: 2rem 0;
+}
+
+.title-expert{
+    color: #9792e4;
+}
+
+.partners{
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 1.5rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.img-container{     
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%; 
+}
+
+.img-container img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
 
 
 
