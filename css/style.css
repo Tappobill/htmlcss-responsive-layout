@@ -189,6 +189,55 @@ img{
    object-fit: cover;
 }
 
+.benefits{
+    background-color: #9792e4;
+    padding: 1rem 1rem;
+}
+
+.benefits-column{
+    padding: 1rem 1rem;
+}
+
+.benefits h2{
+    color: white;
+    text-align: center;
+}
+
+.benefits-col{
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    text-align: left;
+    padding: 1rem;
+}
+
+.benefits-col{
+    color: #9792e4;
+}
+
+.number{
+    font-size: 40px;
+    margin: 1.5rem 0;
+}
+
+.benefits-col p{
+    color: black;
+}
+
+.benefits-col h2{
+    color: #9792e4;
+}
+
+.more-button a{
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 3rem;
+}
+
+.benefits-column .benefits-col h2{
+    text-align: left;
+}
 
 
 
