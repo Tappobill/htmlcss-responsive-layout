@@ -239,5 +239,116 @@ img{
     text-align: left;
 }
 
+.about-us{
+    padding: 1.5rem 1rem;
+}
+
+.about-us h2{
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.about-us p{
+    margin: 3rem 0;
+}
+
+.about{
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1rem
+}
+
+.about-us-container{
+    padding: 1rem 1rem;
+}
+
+.img-container-about{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%; 
+}
+
+.img-icon{
+    position: relative;
+}
+
+.title-img h2{
+    font-size: 20px;
+    padding: 1.5rem 0;
+}
+
+.about-us .fa-solid.fa-quote-left{
+    color: #9792e4;
+}
+
+.fa-solid.fa-quote-left.fa-2x{
+    position: absolute;
+    color: #9792e4;
+    left: 150px;
+    top: 0%;
+    font-size: 4rem;
+}
+
+.It-free{
+    background-color: #9792e4;
+    padding: 1rem;
+}
+
+.container-free{
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: white;
+}
+
+.container-free h2{
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.legacy{
+    margin-top: 3rem;
+    font-size: 9px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.fa-solid.fa-circle.fa-2xs{
+    padding-left: 1rem;
+}
+
+.container-free .yellow{
+    color: #fdc15f;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+}
+
+.container-free p{
+    margin: 3rem 0;
+}
+
+.gray{
+    color: #c7c5f0;
+}
+
+.container-free p{
+    margin: 3rem 0;
+}
+
+.get-started a{
+    color: #9792e4;
+}
+
+.get-started{
+    background-color: white;
+    border-radius: 40px;
+    padding: 1rem 4rem;
+}
+
 
 
