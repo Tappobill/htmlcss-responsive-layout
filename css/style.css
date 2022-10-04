@@ -366,5 +366,81 @@ footer{
     text-decoration: underline;
 }
 
+@media screen and (min-width:768px){
+
+    .first-column{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .col-apple{
+        width: 66%;
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .expert-partners{
+        text-align: inherit;
+    }
+
+    .card-title-expert{
+        text-align: center;
+    }
+
+    .col-apple img{
+        width: 60%;
+    }
+    
+    .col{
+        width: calc(96%/3);
+    }
+ 
+    .partners{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1rem;        
+    } 
+
+    .benefits-column{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-col{
+        width: calc(98%/2);
+    }
+
+    .about-us-container{
+        display: flex;
+        padding: 1rem 4rem;
+        justify-content: space-between;
+    } 
+    
+    .about-us-text{
+        flex-basis: 60%;
+    }
+
+    .about-us-img{
+        flex-basis: 30%;
+    }
+
+    .container-free{
+        padding: 1rem 6rem;
+        width: 85%;
+        margin: auto;
+    }
+
+    .container-foot{
+        padding: 1rem 6rem;
+        width: 70%;
+        margin: auto;
+    }
+    
+}
+
 
 
