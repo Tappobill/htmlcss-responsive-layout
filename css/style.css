@@ -442,5 +442,119 @@ footer{
     
 }
 
+@media screen and (min-width:1252px){
+
+    .ul-menu{
+        display: block;
+    }
+
+    ul{
+        display: flex;
+        list-style: none; 
+        align-items: center;
+    }
+
+    li{
+        margin-left: 1rem;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    .first-column{
+        width: 80%;
+        margin: auto;
+    }
+
+    .col-apple{
+        display: flex;
+        width: 66%;
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+        align-items: flex-end;
+    }
+
+    .col-apple img{
+        width: 80%;
+    }
+
+    .col-apple .apple-div{
+       margin-bottom: 7rem;
+    }
+
+    .strategic-plan{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;      
+    }
+
+    .planning2{
+        margin-top: 10rem;
+        width: 40%;
+    }
+
+    .planning1{
+        width: 40%;
+    }
+
+    .planning1 img{
+        margin-bottom: 15rem;
+    }
+
+    .expert-partners{
+        width: 80%;
+        margin: auto;
+    }
+
+    .card-title-expert{
+        text-align: center;
+    }
+
+    .partners{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+        text-align: left;
+    }
+    
+    .benefits-column{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-col{
+        width: calc(96%/3);
+    }
+
+    .about-us-container{
+        display: flex;
+        padding: 1rem 4rem;
+        justify-content: space-around;        
+    }
+
+    .about-us-text{
+        flex-basis: 40%;
+    }
+
+    .about-us-img{
+        flex-basis: 20%;
+    }
+
+    .container-free{
+        padding: 1rem 6rem;
+        width: 60%;
+        margin: auto;
+    }
+
+    .container-foot{
+        padding: 1rem 6rem;
+        width: 41%;
+        margin: auto;
+    }
+
+}
 
 
