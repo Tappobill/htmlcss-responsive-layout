@@ -350,5 +350,21 @@ ul{
     padding: 1rem 4rem;
 }
 
+footer{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 12px;
+}
+
+.container-foot{
+    padding: 1.5rem 1rem;
+}
+
+.container-foot p a{
+    color: #706d9e;
+    text-decoration: underline;
+}
+
 
 
